@@ -11,3 +11,23 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.counter_section{
+  text-align: center;
+}
+.counter{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.counter input{
+  width: 30px;
+  padding: 8px;
+  margin: 0 12px;
+}
+.counter input[type="text"]{
+  text-align: center;
+}
+.counter span{
+  font-size: 38px;
+}
